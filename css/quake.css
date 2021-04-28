@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Handel Gothic";
+	src: local('Handel Gothic.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body, html {
+	font-family: 'Handel Gothic';
+	height: 100%;
+	background-color: #000;
+}
+
+h1 {
+	font-family: 'Handel Gothic';
+	font-weight: bold;
+	font-size: 2.7rem;
+	text-shadow: 2px 3px 2px black;
+}
+
+.play {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	font-weight: 900;
+}
+
+footer {
+	opacity: .4;
+}
+
+footer:hover {
+	opacity: 1;
+}
+
+.symbols {
+	font-family: sans-serif;
+}
+
+a:hover {
+	color: #1EAEDB;
+}
